@@ -1,4 +1,5 @@
 # Car-plate-detection
-The project is about fetching the user details from https://parivahan.gov.in/parivahan/ using number plate details.
-It is actually a part of a project which involves car-plate number detection using image processing using Raspberry-Pi and a Pi-camera. The code basically collects the data from the server and loads the data in a Google-spreadsheet.
+The project is about car license plate recognition using Raspberry-Pi and a Pi-camera and fetching the user details from https://parivahan.gov.in/parivahan/ using number plate details.
+The image_processing.json file, when loaded in NodeRED interface, deploys a pre-trained image processing model named OpenALPR and the data is stored in a json file.
+The python code basically collects the data from the json and loads the data in a Google-spreadsheet.
 
